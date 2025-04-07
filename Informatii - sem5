@@ -1,0 +1,31 @@
+Seminar 5:
+
+PARTEA I:
+Recombinare (crossover/incrucisare) - se aplicape acceeasi populatie de indivizi (populatie de parinti) de dim n+1 si obtinem o populatie de copii (de dim n+1)
+- indivizii se recombina in ordine, 2 cate 2, iar din cei 2 obtinem 2 copii
+- exista o probabilitate de recombinare (pr) de ~80% ca intre oricare 2 parinti sa se produca recombinarea si sa se produca 2 copii
+- copiii rezultati se verifica dpdv al fezabilitatii ( daca un copil nu e fezabil va ramane parintele lui principal)
+
+- copilul 1 il are ca parinte principal pe p1, iar copilul 2 il are ca parinte principal pe p2
+
+Tipuri de crossover:
+- crossover singular - intr-o singura gena se produce modificarea
+- crossover simplu - se aleg 2 gene unde se produce modificarea
+- crossover total - modificarea se produce la nivelul tuturor genelor
+
+- crossover unipunct - se face o taietura intr-un singur punct (prima secv din parintele principal si a2a secv din parintele secundar)
+- crossover multipunct - se fac mai multe taieturi si se alterneaza parintii
+
+
+Rucsac Continuu:
+- crossover singular
+- (TEMA) crossover simplu, crossover total
+
+Rucsac Discret:
+- crossover unipunct
+- (TEMA) crossover multipunct (in 2 puncte) - generam 2 valori
+
+
+PARTEA II:
+- generarea populatiei
+- operator mutatie
